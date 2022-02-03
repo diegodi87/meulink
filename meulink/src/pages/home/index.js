@@ -1,4 +1,5 @@
 import { FiLink } from 'react-icons/fi';
+import './home.css';
 
 
 export default function Home() {
