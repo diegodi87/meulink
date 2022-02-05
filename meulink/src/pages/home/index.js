@@ -1,5 +1,7 @@
 import { FiLink } from 'react-icons/fi';
 import './home.css';
+import { Link } from 'react-router-dom';
+import Menu from '../../components/menu';
 
 
 export default function Home() {
@@ -18,10 +20,12 @@ export default function Home() {
             placeholder="Cole seu link aqui"
           />
         </div>
-
-        <button> Encurtar link</button>
+ 
+          <button> Encurtar link</button>
 
       </div>
+
+      <Menu/>
 
     </div>
   )
